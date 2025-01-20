@@ -1,6 +1,6 @@
 :root {
   --primary-color: #19180a;
-  --secondary-color: #23ce6b;
+  --secondary-color: #001242;
   --accent1-color: #848fa5;
   --accent2-color: #0a8754;
 }
@@ -16,6 +16,21 @@ h2 {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   text-align: center;
+}
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 1rem;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header img {
+  width: 150px;
+  height: auto;
 }
 header,
 main,
@@ -51,4 +66,40 @@ a {
   display: block;
   width: 100%;
   height: auto;
+}
+.history div {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+.adventure img {
+  width: 100%;
+}
+.adventure div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+}
+.adventure div figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+}
+footer {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  padding: 10px;
+}
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+footer .social-links a {
+  display: block;
 }

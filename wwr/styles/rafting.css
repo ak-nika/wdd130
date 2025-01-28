@@ -103,6 +103,9 @@ a {
   padding: 0;
   list-style-type: none;
 }
+iframe {
+  border: none;
+}
 .team div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

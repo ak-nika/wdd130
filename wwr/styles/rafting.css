@@ -131,9 +131,10 @@ a {
   gap: 1.5rem;
   margin-top: 90px;
 }
-.form form p {
+.form form p,
+.form .userinfo label,
+.form .message label {
   font-weight: 700;
-  margin: 0.2rem 0;
 }
 .form input,
 .form textarea,

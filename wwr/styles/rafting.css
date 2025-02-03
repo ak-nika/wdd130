@@ -71,7 +71,9 @@ a {
   height: auto;
 }
 .newsletter p,
-.trips p {
+.trips p,
+.contact p,
+.available p {
   text-align: center;
   margin: 1.5rem 0;
 }
@@ -108,7 +110,8 @@ a {
   color: #fff;
   cursor: pointer;
 }
-.trips a {
+.trips a,
+.contact a {
   display: block;
   margin: 0 auto;
   background-color: var(--primary-color);
@@ -253,6 +256,35 @@ iframe {
 }
 .form form button:hover {
   background-color: var(--secondary-color);
+}
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  padding: 1rem;
+}
+.description img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.available table,
+.available th,
+.available td {
+  border: 1px solid var(--primary-color);
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+.available table thead {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.available table tbody {
+  text-align: left;
 }
 footer {
   margin-top: 10px;
